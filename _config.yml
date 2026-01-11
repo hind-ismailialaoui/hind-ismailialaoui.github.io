@@ -23,7 +23,7 @@ email: hind.ismailialaoui@viacesi.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Journal de veille sur l’IA : essais, notes et observations personnelles sur nos conversations avec les machines et leur place dans la société.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://indetrois.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://indetrois.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: hind-ismailialaoui
 tiktok_username: ismailialaouihind
 
