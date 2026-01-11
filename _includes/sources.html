@@ -1,0 +1,31 @@
+<div class="sources-section">
+  <h2 class="home-section-title">Sources d'Informations</h2>
+  <p>Voici d'où je m'informe, les differents flux RSS auxquels je suis abonnée et les vidéos que je trouves interessentes.</p>
+
+  <ul class="post-list">
+    {%- for source in site.data.sources -%}
+      <li>
+        <span class="post-meta">
+          <span class="sources-title">{{ source.title }}</span>
+          <span class="sources-tags">
+            {%- for tag in source.tags -%}
+              <a class="post-tag" href="{{ '/tags/' | relative_url }}#tag-{{ tag | slugify }}">{{ tag }}</a>
+            {%- endfor -%}
+          </span>
+          [<a class="post-link-inline" href="{{ source.url }}" target="_blank" rel="noopener noreferrer">lien</a>]
+        </span>
+      </li>
+    {%- endfor -%}
+    <!--
+    <li>
+      <span class="post-meta">
+        <span class="sources-title">Titre</span>
+        <span class="sources-tags">
+          <a class="post-tag" href="{{ '/tags/' | relative_url }}#tag-slug">Tag</a>
+        </span>
+        [<a class="post-link-inline" href="URL" target="_blank" rel="noopener noreferrer">lien</a>]
+      </span>
+    </li>
+    -->
+  </ul>
+</div>

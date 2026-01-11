@@ -1,0 +1,450 @@
+---
+---
+
+@import "minima";
+
+$hover-accent: #ff00f2;
+$envelope-border-width: 2px;
+
+/* =====================
+   Global links & nav
+   ===================== */
+.site-title,
+.site-title:visited {
+  /* Change here: site title size/weight/color */
+  font-size: 2.1em;
+  font-weight: 700;
+  color: #000000;
+}
+
+.site-title:hover {
+  /* Change here: site title hover color */
+  color: $hover-accent;
+}
+
+.site-nav .page-link {
+  /* Change here: menu link color */
+  color: #000000;
+}
+
+.site-nav .page-link:hover {
+  /* Change here: menu link hover color */
+  color: $hover-accent;
+}
+
+.site-footer a:hover {
+  /* Change here: footer link hover color */
+  color: $hover-accent;
+}
+
+.page-content a:hover {
+  /* Change here: page content link hover color */
+  color: $hover-accent;
+}
+
+/* =====================
+   Post lists & tags
+   ===================== */
+.post-list > li {
+  /* Change here: spacing between list items */
+  margin-bottom: 0;
+}
+
+.post-list > li + li {
+  /* Change here: spacing between list items */
+  margin-top: 0.1rem;
+}
+
+.post-meta {
+  /* Change here: date/title line size & color */
+  font-size: 1em;
+  color: #777;
+}
+
+.post-meta .post-link {
+  display: inline;
+  font-size: inherit;
+
+}
+
+.post-link:hover {
+  /* Change here: hover color for post links */
+  color: $hover-accent;
+}
+
+.post-link-inline {
+  /* Change here: inline post link appearance */
+  display: inline;
+  font-size: inherit;
+  color:#2a7ae2;
+  text-decoration: none;
+}
+
+.post-link-inline:hover {
+  /* Change here: inline post link hover */
+  color: $hover-accent;
+  text-decoration: underline;
+}
+
+.post-tag {
+  /* Change here: tag pill size/shape/colors */
+  display: inline-block;
+  padding: 2px 6px;
+  margin-right: 4px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  background: #f5f5f5;
+  color: #333;
+  font-size: 0.75em;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.post-tag:hover {
+  /* Change here: tag pill hover */
+  background: #fde1ff;
+  border-color: $hover-accent;
+  color: #220202;
+  text-decoration: none;
+}
+
+.tag-cloud {
+  margin: 0 0 16px 0;
+}
+
+.tag-cloud .post-tag {
+  margin-bottom: 6px;
+}
+
+/* =====================
+   Home sections
+   ===================== */
+.home-kicker {
+  /* Change here: small section title (home) */
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 12px 0 10px;
+}
+
+.home-section-title {
+  /* Change here: big section title (home) */
+  font-size: 2.4em;
+  font-weight: 700;
+  margin: 36px 0 20px;
+}
+
+/* Sources list (home) */
+.sources-section {
+  /* Change here: spacing above Sources section */
+  margin: 40px 0 0;
+}
+
+.sources-section p {
+  margin: 0 0 16px;
+}
+
+.sources-title {
+  /* Change here: source title emphasis */
+  font-weight: 350;
+  margin-right: 6px;
+}
+
+.sources-tags {
+  /* Change here: spacing between source tags */
+  display: inline-flex;
+  gap: 6px;
+  margin-right: 6px;
+}
+
+/* =====================
+   Page titles
+   ===================== */
+.page-title {
+  /* Change here: page title style (layouts page/post/tags) */
+  font-size: 2.4em;
+  font-weight: 700;
+  margin: 24px 0 36px;
+}
+
+/* =====================
+   CV page
+   ===================== */
+.cv-page {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.cv-section {
+  margin: 36px 0 48px;
+}
+
+.cv-section-title {
+  /* Change here: CV section headings */
+  font-size: 1.25em;
+  font-weight: 700;
+  margin: 0 0 18px;
+}
+
+.cv-item {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 24px;
+  align-items: start;
+  margin: 18px 0 28px;
+}
+
+.cv-item-year {
+  /* Change here: CV year column */
+  color: #9a9a9a;
+  font-size: 0.95em;
+}
+
+.cv-item-title {
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.cv-item-text {
+  margin: 0 0 14px;
+  color: #5a5a5a;
+}
+
+.cv-image {
+  /* Change here: CV image size/shape */
+  width: 100%;
+  height: 180px;
+  border-radius: 16px;
+  background: #ececec;
+}
+
+.cv-image-photo {
+  overflow: hidden;
+}
+
+.cv-image-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cv-image-cesi img {
+  /* Change here: CESI image crop */
+  object-position: center 70%;
+}
+
+.cv-image-thm img {
+  /* Change here: THM image crop */
+  object-position: center 30%;
+}
+
+.cv-image-simulacres img {
+  /* Change here: Simulacres image crop */
+  object-position: center 37%;
+}
+
+.cv-image-flutter img {
+  /* Change here: Flutter image crop */
+  object-position: center 50%;
+}
+
+/* =====================
+   Contact envelope
+   ===================== */
+.contact-envelope-wrap {
+  /* Change here: center/spacing of contact envelope */
+  display: flex;
+  justify-content: center;
+  padding: 12px 0 40px;
+  width: 100%;
+}
+
+.envelope-card {
+  /* Change here: envelope size */
+  position: relative;
+  width: 320px;
+  height: 260px;
+  cursor: pointer;
+  perspective: 1000px;
+  margin: 0 auto;
+}
+
+.envelope-paper {
+  /* Change here: paper card size/position */
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  width: 260px;
+  transform: translateX(-50%);
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.12);
+  padding: 18px 18px 14px;
+  z-index: 6;
+  opacity: 0;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.envelope-card:hover .envelope-paper {
+  transform: translate(-50%, -160px);
+  opacity: 1;
+}
+
+.envelope-title {
+  /* Change here: paper title text */
+  margin: 0 0 12px;
+  font-size: 1.25em;
+  font-weight: 700;
+  text-align: center;
+  color: #220202;
+}
+
+.envelope-links {
+  display: grid;
+  gap: 8px;
+}
+
+.contact-link {
+  /* Change here: contact link appearance */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  color: #2a7ae2;
+  text-decoration: none;
+  transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.contact-link:hover {
+  /* Change here: contact link hover */
+  border-color: $hover-accent;
+  background: #fde1ff;
+  color: #220202;
+}
+
+.contact-link span {
+  font-size: 0.82em;
+}
+
+.contact-icon {
+  width: 18px;
+  height: 18px;
+  fill: #828282;
+  flex-shrink: 0;
+}
+
+.contact-link:hover .contact-icon {
+  fill: $hover-accent;
+}
+
+.envelope-shell {
+  position: absolute;
+  inset: 40px 0 0;
+  overflow: visible;
+}
+
+.envelope-body {
+  /* Change here: envelope body colors/border */
+  position: absolute;
+  inset: -4px;
+  border-radius: 12px;
+  border: $envelope-border-width solid #000;
+  background: linear-gradient(135deg, #ff0909, #d946ef);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.envelope-flap-back {
+  /* Change here: flap back colors */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 120px;
+  background: linear-gradient(135deg, #c40808, #902f9f);
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
+  z-index: 2;
+}
+
+.envelope-flap {
+  /* Change here: flap front colors */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 120px;
+  background: linear-gradient(135deg, #ff0909, #d946ef);
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
+  transform-origin: top center;
+  transform: rotateX(0deg);
+  z-index: 4;
+  transition: transform 0.6s ease;
+}
+
+.envelope-card:hover .envelope-flap {
+  transform: rotateX(180deg);
+}
+
+.envelope-border {
+  /* Change here: triangle border */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 120px;
+  z-index: 5;
+  pointer-events: none;
+  transform-origin: top center;
+  transition: transform 0.6s ease;
+}
+
+.envelope-border svg {
+  width: 100%;
+  height: 100%;
+}
+
+.envelope-card:hover .envelope-border {
+  transform: rotateX(180deg);
+}
+
+.envelope-border polyline {
+  stroke-width: $envelope-border-width;
+}
+
+/* =====================
+   Responsive
+   ===================== */
+@media screen and (max-width: 600px) {
+  /* Change here: mobile layout adjustments */
+  .cv-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .envelope-card {
+    width: min(240px, 90vw);
+    height: 200px;
+  }
+
+  .envelope-paper {
+    width: min(200px, 88vw);
+    top: 12px;
+  }
+
+  .envelope-card:hover .envelope-paper {
+    transform: translate(-50%, -120px);
+  }
+
+  .envelope-shell {
+    inset: 30px 0 0;
+  }
+
+  .envelope-flap,
+  .envelope-flap-back,
+  .envelope-border {
+    height: 90px;
+  }
+}
