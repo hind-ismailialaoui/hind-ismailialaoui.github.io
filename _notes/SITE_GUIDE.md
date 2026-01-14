@@ -27,3 +27,18 @@ Creer un post (automatiquement)
 Ajouter des sources (section "Sources d'informations")
 
 - Fichier: \_data/sources.yml
+
+Tester en local
+bundle exec jekyll serve
+
+Enregistrer les changements avec Git
+git status
+git add .
+git commit -m "Ajoute post : Titre du post"
+
+Publier sur GitHub (et donc sur le site)
+git push origin main
+
+Si Git refuse le push avec non-fast-forward
+git pull --rebase origin main
+git push origin main
