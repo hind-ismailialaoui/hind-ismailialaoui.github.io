@@ -15,14 +15,12 @@ Modifier le texte d'accueil
 Creer un post
 
 - Dossier: \_posts
-- Blog: \_posts/Blogs
-- Essai: \_posts/Essais
-- Format: AAAA-MM-JJ-Template.md
+- Sous-dossier (optionnel): \_posts/<Dossier>
+- Format: AAAA-MM-JJ-titre.md
 
 Creer un post (automatiquement)
 
-- Script blog: scripts/new_blog_post.sh "Titre du post"
-- Script essai: scripts/new_essai_post.sh "Titre de l'essai"
+- Script unifie: scripts/new_post.sh "Titre du post" [Dossier]
 
 Ajouter des sources (section "Sources d'informations")
 
