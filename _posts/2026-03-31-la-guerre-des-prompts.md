@@ -4,7 +4,7 @@ title: "La guerre des prompts"
 date: 2026-03-31 11:16:41 +0200
 categories: Posts
 permalink: "/:categories/:title"
-author: "Hind"
+author: "Hind Ismaili Alaoui & Rose"
 tags: [prompt-engineering]
 ---
 
