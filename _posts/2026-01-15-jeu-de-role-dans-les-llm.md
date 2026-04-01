@@ -4,7 +4,7 @@ title: Jeu de Rôle et LLM — L'illusion du dialogue
 date: 2026-01-15 09:12:43 +0100
 categories: Posts
 permalink: /:categories/:title
-author: Hind
+author: Hind Ismaili Alaoui
 tags:
   - IA
   - JDR

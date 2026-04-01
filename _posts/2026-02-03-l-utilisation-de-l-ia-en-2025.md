@@ -4,7 +4,7 @@ title: L'utilisation de l'IA en 2025
 date: 2026-02-03 16:34:49 +0100
 categories: Posts
 permalink: /:categories/:title
-author: Hind
+author: Hind Ismaili Alaoui
 tags:
   - IA
   - Comportement
