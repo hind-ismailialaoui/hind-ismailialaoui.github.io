@@ -44,7 +44,7 @@ title: "${title}"
 date: ${date_full}
 categories: ${category}
 permalink: "/:categories/:title"
-author: "Hind"
+author: "Hind Ismaili Alaoui"
 tags: []
 ---
 
